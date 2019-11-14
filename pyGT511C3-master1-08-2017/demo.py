@@ -1,0 +1,5 @@
+variable = open('tosend.txt').read()
+print("ans is %s" %(variable))
+print len(variable)
+variable1 = int(variable)
+print (variable1+2)
